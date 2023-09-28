@@ -1,0 +1,123 @@
+/* Nav sec start */
+nav {
+  font-family: "Mulish", sans-serif;
+  box-shadow: 0px 10px 57px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 130px;
+}
+
+ul {
+  display: flex;
+  gap: 40px;
+  color: #212529;
+}
+
+.nav-list {
+  gap: 40px;
+  display: flex;
+}
+
+a {
+  color: #000000;
+}
+
+button {
+  cursor: pointer;
+  background-color: #2937f0;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 16px;
+  border: none;
+}
+/* Nav sec end */
+
+/* Header sec start */
+.application {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Header sec end */
+
+/* Main - quote sec start */
+.quote {
+  font-size: 25px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 50px;
+  background-color: #5b29f0;
+  color: #ffffff;
+}
+
+h2 {
+  margin-left: 20px;
+}
+/* Main - quote sec end */
+#features {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  margin: 40px;
+  padding: 20px;
+}
+.icons-cards {
+  display: flex;
+  align-items: center;
+}
+.card {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  & h3 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-top: 30px;
+  }
+  & p {
+    color: grey;
+  }
+}
+
+/* Main - basic sec start */
+#basic-features {
+  font-family: "Mulish", sans-serif;
+  background-color: #efefef;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 54px;
+
+  & .left-sec {
+    width: 41.66666667%;
+  }
+  & img {
+    border-radius: 50%;
+  }
+}
+
+.left-sec p {
+  font-size: 17px;
+  color: grey;
+}
+/* Main - basic sec end */
+
+/* Footer sec start */
+.black-sec {
+  background-color: #000000;
+  color: #adb5bd;
+  padding: 56px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.black-sec a {
+  color: #adb5bd;
+}
+
+.app-paragraph {
+  color: #6c757d !important;
+  margin-bottom: 3rem;
+}
+/* Footer sec end */
